@@ -73,11 +73,67 @@ html{
 body{
     background-color: white;
     max-width: 1024px;
-    box-shadow:var(--shadow);
-    margin-left: 5;
+    box-shadow:10px 10px 25px(--shadow);
+    margin-left: 25px;
+    margin-right: 25px;
 }
 p{
     font-size: 1.2rem;
     line-height: 1.4rem;
     margin: 15px;
+    margin:auto;
+}
+img{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+.top ul{
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    padding: 5% 0% 5% 0%;
+    text-align: center;
+}
+.top{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top :hover{
+    color:var(--nav-active);
+    text-shadow: 0px 0px 2px black, 0px 0px 15px white;
+}
+
+#logoImage{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+header{
+        background-color: white;
+        width: 100%;
+    }
+p:nth-child(2) img{
+    float: right;
+    width: 45%;
+    margin: 0px 0px 120px 50px;
+    transform: translate(60px);
+    transform: rotate(30deg);
+}
+li a{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+h1{
+    font-size: 2.5rem;
+    color:var(--text-color);
+    text-shadow: white -2px 0px 1px;
 }
